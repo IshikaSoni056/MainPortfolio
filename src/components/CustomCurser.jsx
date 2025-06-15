@@ -37,7 +37,7 @@ const CustomCursor = () => {
     <>
       {/* Primary Dot */}
       <motion.div
-        className="fixed top-0 left-0 w-2 h-2 bg-white rounded-full pointer-events-none z-[9999] mix-blend-difference"
+        className="fixed top-0 left-0 w-3 h-3 bg-white rounded-full pointer-events-none z-[9999] mix-blend-difference"
         style={{
           translateX: cursorX,
           translateY: cursorY,
@@ -46,7 +46,7 @@ const CustomCursor = () => {
 
       {/* Trailing Follower */}
       <motion.div
-        className="fixed top-0 left-0 w-12 h-12 bg-white/10 border border-white/20 rounded-full backdrop-blur-sm pointer-events-none z-[9998] mix-blend-difference shadow-[0_0_20px_rgba(255,255,255,0.3)]"
+        className="fixed top-0 left-0 w-8 h-8 bg-white/10 border border-white/20 rounded-full backdrop-blur-sm pointer-events-none z-[9998] mix-blend-difference shadow-[0_0_20px_rgba(255,255,255,0.3)]"
         style={{
           translateX: followerX,
           translateY: followerY,

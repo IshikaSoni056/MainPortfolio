@@ -245,18 +245,16 @@ export const experiences = [
       "Additionally, implemented a dedicated Recruiter Hire Page, enabling recruiters to seamlessly post job listings and track applicant submissions in real time.",
     ],
   },
-  // {
-  //   title: "Back-End Developer",
-  //   job: "Car Manufacture",
-  //   date: "2023-2024",
-  //   contents: [
-  //     "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-  //     "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-  //     "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-  //     "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-  //     "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
-  //   ],
-  // },
+  {
+    title: "Content Head",
+    job: "Google Developer Student Clubs",
+    date: "2024-2025",
+    contents: [
+      "Led the content strategy and execution for all GDSC events, workshops, and campaigns, impacting over 500+ students across campus.",
+      "Created and managed technical and non-technical content including Social media posts, Workshop announcements, Event banners & copy, Technical blog posts & recaps",
+      "Collaborated with cross-functional teams to ensure content alignment with GDSC's mission and goals, resulting in a 30% increase in event participation.",
+    ],
+  },
   {
     title: "Freelance Developer",
     job: "Self-Employed",
