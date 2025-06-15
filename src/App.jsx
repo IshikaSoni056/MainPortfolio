@@ -7,15 +7,19 @@ import Testimonial from "./sections/Testimonial";
 import Contact from "./sections/Contact";
 import Footer from './sections/Footer';
 import Navbar from "./sections/Navbar";
+import Techstack from "./sections/Techstack";
+
 
 const App = () => {
   return (
-    <div className="container mx-auto max-w-7xl">
+    <div className="container mx-auto max-w-7xl ">
       <Navbar />
       <Hero />
       <About />
-      <Projects />
       <Experiences />
+      <Techstack/>
+      <Projects />
+      
       <Testimonial />
       <Contact />
       <Footer/>
@@ -24,3 +28,4 @@ const App = () => {
 };
 
 export default App;
+
