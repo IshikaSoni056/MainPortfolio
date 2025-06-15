@@ -11,14 +11,19 @@ const Project = ({
   setPreview,
 }) => {
   const [isHidden, setIsHidden] = useState(false);
+
   return (
     <>
       <div
-        className="flex-wrap items-center justify-between py-10 space-y-14 sm:flex sm:space-y-0"
+        className="relative group flex-wrap items-center justify-between py-10 space-y-14 sm:flex sm:space-y-0 overflow-hidden transition-colors duration-500"
         onMouseEnter={() => setPreview(image)}
         onMouseLeave={() => setPreview(null)}
       >
-        <div>
+        {/* Hover background overlay */}
+        <span className="absolute inset-0 origin-top scale-y-0 bg-[#ebe0d5] transition-transform duration-500 ease-out group-hover:scale-y-100 z-0" />
+
+        {/* Foreground content */}
+        <div className="relative z-10 text-white group-hover:text-black transition-colors duration-500">
           <p className="text-2xl">{title}</p>
           <div className="flex gap-5 mt-2 text-sand">
             {tags.map((tag) => (
@@ -26,15 +31,18 @@ const Project = ({
             ))}
           </div>
         </div>
+
         <button
           onClick={() => setIsHidden(true)}
-          className="flex items-center gap-1 cursor-pointer hover-animation"
+          className="relative z-10 flex items-center gap-1 cursor-pointer hover-animation group-hover:text-black transition-colors duration-500"
         >
           Read More
           <img src="/MainPortfolio/assets/arrow-right.svg" className="w-5" />
         </button>
       </div>
+
       <div className="bg-gradient-to-r from-transparent via-neutral-700 to-transparent h-[1px] w-full" />
+
       {isHidden && (
         <ProjectDetails
           title={title}

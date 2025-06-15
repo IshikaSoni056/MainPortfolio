@@ -48,7 +48,7 @@ const Techstack = () => {
   return (
     <section
       ref={ref}
-      className="min-h-screen w-full bg-[#0d1117] text-white px-8 py-24 mt-16 flex flex-col items-center justify-center"
+      className="min-h-screen w-full bg-[#13171e] border-2  border-white/40 rounded-2xl text-white px-8 py-24 mt-16 flex flex-col items-center justify-center"
     >
       <motion.h1
         initial={{ opacity: 0, y: -30 }}

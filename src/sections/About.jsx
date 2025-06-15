@@ -115,7 +115,7 @@ const About = () => {
   return (
     <section
       ref={ref}
-      className="min-h-screen w-full bg-[#0d1117] text-white flex items-center justify-center px-8 py-24 mt-16 border-2 border-white/10 rounded-2xl shadow-lg"
+      className="min-h-screen w-full  text-white flex items-center justify-center px-8 py-24 mt-16 bg-[#13171e] border-2 border-white/50 rounded-2xl shadow-lg"
     >
       <div className="max-w-7xl w-full flex flex-col md:flex-row items-center justify-between gap-12">
         

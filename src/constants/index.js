@@ -1,14 +1,11 @@
 export const myProjects = [
   {
     id: 1,
-    title: "E-commerce Platform",
-    description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
-    subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
+title: "Newsglobe Google Chrome Extension",
+description: `Built a multifunctional Chrome Extension using HTML, CSS, JavaScript, enabling users to view real-time news headlines via
+News API integration and integrated OpenAI's Gemini AI for AI-generated responses alongside live updates.`,
+subDescription: [
+      "Implemented search functionality, language filtering (5+ languages), and category-based news browsing. Engineered interaction between multiple APIs, enhancing user engagement by 50% and improving the overall userexperience.",
     ],
     href: "",
     logo: "",
@@ -16,36 +13,33 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "C#",
+        name: "HTML",
         path: "/MainPortfolio/assets/logos/csharp.svg",
       },
       {
         id: 2,
-        name: ".Net",
+        name: "CSS",
         path: "/MainPortfolio/assets/logos/dotnet.svg",
       },
       {
         id: 3,
-        name: "Ef Core",
+        name: "Javascript",
         path: "/MainPortfolio/assets/logos/efcore.png",
       },
       {
         id: 4,
-        name: "TailwindCSS",
+        name: "RestAPIs",
         path: "/MainPortfolio/assets/logos/tailwindcss.svg",
       },
     ],
   },
   {
     id: 2,
-    title: "Authentication & Authorization System",
+    title: "ConnectX",
     description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
+      "Building a scalable Zoom-style web app using Next.js, supporting secure meeting creation, scheduling, and participation for 50+ concurrent users.",
     subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
+      "Integrated Clerk authentication with multi-provider login and role-based access, ensuring secure user sessions and data privacy",
     ],
     href: "",
     logo: "",
@@ -75,37 +69,34 @@ export const myProjects = [
   },
   {
     id: 3,
-    title: "Blazor Web App",
+    title: "Flappy Bird Game ",
     description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
+      "Developed a fully responsive Flappy Bird game using HTML5, CSS3, and JavaScript, optimized for desktop and mobile devices with 100% screen compatibility",
     subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
+      "Implemented real-time score tracking and integrated Firebase Firestore to store and manage player data. Developed logic to automatically update high scores and display the top scorer's name, promoting competition and replayability.",
     ],
     href: "",
     logo: "",
-    image: "/MainPortfolio/assets/projects/blazor-app.jpg",
+    image: "/MainPortfolio/assets/projects/flappybird.png",
     tags: [
       {
         id: 1,
-        name: "Blazor",
+        name: "HTML",
         path: "/MainPortfolio/assets/logos/blazor.svg",
       },
       {
         id: 2,
-        name: ".NET Core",
+        name: "CSS",
         path: "/MainPortfolio/assets/logos/dotnetcore.svg",
       },
       {
         id: 3,
-        name: "SQLite",
+        name: "Javascript",
         path: "/MainPortfolio/assets/logos/sqlite.svg",
       },
       {
         id: 4,
-        name: "TailwindCSS",
+        name: "Firebase",
         path: "/MainPortfolio/assets/logos/tailwindcss.svg",
       },
     ],
@@ -243,29 +234,29 @@ export const mySocials = [
 
 export const experiences = [
   {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
+    title: "Full Stack Developer Intern",
+    job: "Jobsdoor360",
+    date: "May 2025 - July 2025",
     contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
+      "Built and deployed a responsive landing page using HTML, CSS, JavaScript, boosting user engagement by 25%.",
+      "Designed and developed a comprehensive Admin Master Panel to monitor and manage user profiles, with full backend integration",
+      "Developed and updated the Assessment Section of the site, adding 300+ topic-wise questions and quizzes across multiple subtopics, storing all data in Firebase Firestore.",
+      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communicationPerformed end-to-end functionality testing of the website, identifying and resolving 10+ UI/UX bugs to ensure seamless operation across devices.",
+      "Additionally, implemented a dedicated Recruiter Hire Page, enabling recruiters to seamlessly post job listings and track applicant submissions in real time.",
     ],
   },
-  {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
-    contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
-    ],
-  },
+  // {
+  //   title: "Back-End Developer",
+  //   job: "Car Manufacture",
+  //   date: "2023-2024",
+  //   contents: [
+  //     "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
+  //     "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
+  //     "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
+  //     "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
+  //     "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
+  //   ],
+  // },
   {
     title: "Freelance Developer",
     job: "Self-Employed",

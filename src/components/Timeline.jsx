@@ -77,7 +77,7 @@ export const Timeline = ({ data }) => {
 
         {/* Scroll line */}
         <div
-          style={{ height: height + "px" }}
+          style={{ height: height - 400 + "px" }}
           className="absolute md:left-1 left-1 top-0 overflow-hidden w-[2px] bg-[linear-gradient(to_bottom,var(--tw-gradient-stops))] from-transparent from-[0%] via-neutral-700 to-transparent to-[99%] [mask-image:linear-gradient(to_bottom,transparent_0%,black_10%,black_90%,transparent_100%)]"
         >
           <motion.div
