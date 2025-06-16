@@ -10,6 +10,7 @@ import Navbar from "./sections/navbar";
 import Techstack from "./sections/Techstack";
 
 
+
 const App = () => {
   return (
     <div className="container mx-auto max-w-7xl ">
@@ -18,9 +19,10 @@ const App = () => {
       <About />
       <Experiences />
       <Techstack/>
+      {/* <Works/> */}
       <Projects />
       
-      <Testimonial />
+      {/* <Testimonial /> */}
       <Contact />
       <Footer/>
     </div>

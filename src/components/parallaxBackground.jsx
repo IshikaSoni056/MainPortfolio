@@ -1,5 +1,6 @@
 
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
+import { Particles } from "./Particles";
 
 const ParallaxBackground = () => {
   const { scrollYProgress } = useScroll();
@@ -34,7 +35,19 @@ const ParallaxBackground = () => {
             backgroundSize: "cover",
             x: sky,
           }}
+          
         />
+
+       {/* <Particles
+  className="absolute inset-0 -z-50"
+  quantity={300}
+  staticity={20}
+  ease={60}
+  size={1}
+  color="#ffffff"
+  refresh
+/> */}
+
 
         {/* Mountain Layer 3 */}
         <motion.div
