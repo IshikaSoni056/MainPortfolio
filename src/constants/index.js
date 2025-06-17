@@ -5,6 +5,7 @@ export const myProjects = [
     id: 1,
 title: "Newsglobe Google Chrome Extension",
 Languages: "HTML, CSS, JavaScript, News API, OpenAI Gemini",
+github: "https://github.com/IshikaSoni056/NewsGlobe-website",
 description: `Built a multifunctional Chrome Extension using HTML, CSS, JavaScript, enabling users to view real-time news headlines via
 News API integration and integrated OpenAI's Gemini AI for AI-generated responses alongside live updates.`,
 subDescription: [
