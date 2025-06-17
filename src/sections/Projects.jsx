@@ -133,6 +133,7 @@ const isInView = useInView(headingRef, { once: true, amount: 0.5 });
                 />
                 <div className="p-4 text-white">
                   <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
+                  <h5 className="text-pink-500">{project.Languages}</h5>
                   <p className="text-sm text-neutral-400">
                     {project.description.slice(0, 60)}...
                   </p>

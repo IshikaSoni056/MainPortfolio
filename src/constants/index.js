@@ -1,49 +1,49 @@
+import { Languages } from "lucide-react";
+
 export const myProjects = [
   {
     id: 1,
 title: "Newsglobe Google Chrome Extension",
+Languages: "HTML, CSS, JavaScript, News API, OpenAI Gemini",
 description: `Built a multifunctional Chrome Extension using HTML, CSS, JavaScript, enabling users to view real-time news headlines via
 News API integration and integrated OpenAI's Gemini AI for AI-generated responses alongside live updates.`,
 subDescription: [
       "Implemented search functionality, language filtering (5+ languages), and category-based news browsing. Engineered interaction between multiple APIs, enhancing user engagement by 50% and improving the overall userexperience.",
     ],
-    href: "",
+    href: "https://drive.google.com/file/d/16-2HOZrOsYJpQSppeKFOGx0uOaLj25y-/view?usp=sharing",
     logo: "",
-    image: "/MainPortfolio/assets/projects/accessories.jpg",
+    image: "/MainPortfolio/assets/projects/news.jpeg",
     tags: [
       {
         id: 1,
         name: "HTML",
-        path: "/MainPortfolio/assets/logos/csharp.svg",
+        path: "/MainPortfolio/assets/logos/html5.svg",
       },
       {
         id: 2,
         name: "CSS",
-        path: "/MainPortfolio/assets/logos/dotnet.svg",
+        path: "/MainPortfolio/assets/logos/css3.svg",
       },
       {
         id: 3,
         name: "Javascript",
-        path: "/MainPortfolio/assets/logos/efcore.png",
-      },
-      {
-        id: 4,
-        name: "RestAPIs",
-        path: "/MainPortfolio/assets/logos/tailwindcss.svg",
+        path: "/MainPortfolio/assets/logos/javascript.svg",
       },
     ],
   },
   {
     id: 2,
     title: "ConnectX",
+    Languages :"Next.js, Clerk, GetStream, Tailwind CSS",
     description:
       "Building a scalable Zoom-style web app using Next.js, supporting secure meeting creation, scheduling, and participation for 50+ concurrent users.",
     subDescription: [
       "Integrated Clerk authentication with multi-provider login and role-based access, ensuring secure user sessions and data privacy",
     ],
-    href: "",
+    href: "https://github.com/IshikaSoni056/Video_Conferencing_App",
     logo: "",
-    image: "/MainPortfolio/assets/projects/auth-system.jpg",
+    image: "/MainPortfolio/assets/projects/connectx.png",
+    github: "https://github.com/IshikaSoni056/Video_Conferencing_App",
     tags: [
       {
         id: 1,
@@ -70,145 +70,97 @@ subDescription: [
   {
     id: 3,
     title: "Flappy Bird Game ",
+    Languages: "HTML, CSS, JavaScript, Firebase",
     description:
       "Developed a fully responsive Flappy Bird game using HTML5, CSS3, and JavaScript, optimized for desktop and mobile devices with 100% screen compatibility",
     subDescription: [
       "Implemented real-time score tracking and integrated Firebase Firestore to store and manage player data. Developed logic to automatically update high scores and display the top scorer's name, promoting competition and replayability.",
     ],
-    href: "",
+    href: "https://ishikasoni056.github.io/FlappyBird/",
     logo: "",
     image: "/MainPortfolio/assets/projects/flappybird.png",
+    github: "https://github.com/IshikaSoni056/FlappyBird",
     tags: [
       {
         id: 1,
         name: "HTML",
-        path: "/MainPortfolio/assets/logos/blazor.svg",
+        path: "/MainPortfolio/assets/logos/html5.svg",
       },
       {
         id: 2,
         name: "CSS",
-        path: "/MainPortfolio/assets/logos/dotnetcore.svg",
+        path: "/MainPortfolio/assets/logos/css3.svg",
       },
       {
         id: 3,
         name: "Javascript",
-        path: "/MainPortfolio/assets/logos/sqlite.svg",
+        path: "/MainPortfolio/assets/Tech/javascript.png",
       },
       {
         id: 4,
         name: "Firebase",
-        path: "/MainPortfolio/assets/logos/tailwindcss.svg",
+        path: "/MainPortfolio/assets/Tech/firebase.png",
       },
     ],
   },
-  {
+   {
     id: 4,
-    title: "C++ Game Engine",
+    title: "My Portfolio",
+    Languages: "ReactJS, TailwindCSS, Framer Motion",
+    github: "https://github.com/IshikaSoni056/MainPortfolio",
     description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
+      "Designed and developed a responsive personal portfolio using React.js, showcasing projects, skills, and contact information. Implemented parallax and motion animations using Framer Motion to create an engaging user experience.",
     subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
+      "Ensured mobile-first design and smooth transitions to enhance accessibility and interactivity across all devices.",
     ],
-    href: "",
+    href: "https://ishikasoni056.github.io/MainPortfolio/",
     logo: "",
-    image: "/MainPortfolio/assets/projects/game-engine.jpg",
+    image: "/MainPortfolio/assets/projects/Portfolio.png",
     tags: [
       {
         id: 1,
-        name: "C++",
-        path: "/MainPortfolio/assets/logos/cplusplus.svg",
+        name: "ReactJS",
+        path: "/MainPortfolio/assets/Tech/reactjs.png",
       },
       {
         id: 2,
-        name: "C#",
-        path: "/MainPortfolio/assets/logos/csharp.svg",
+        name: "TailwindCSS",
+        path: "/MainPortfolio/assets/Tech/tailwind.png",
       },
       {
         id: 3,
-        name: "Git",
-        path: "/MainPortfolio/assets/logos/git.svg",
-      },
-      {
-        id: 4,
-        name: "Microsoft",
-        path: "/MainPortfolio/assets/logos/microsoft.svg",
+        name: "Javascript",
+        path: "/MainPortfolio/assets/Tech/javascript.png",
       },
     ],
   },
-  {
+    {
     id: 5,
-    title: "WordPress Custom Theme",
-    description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
-    subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
+title: "ImageSlider",
+Languages: "HTML, CSS, JavaScript",
+description: ` Developed a responsive image slider using vanilla HTML, CSS, and JavaScript to enhance visual storytelling on web pages.`,
+subDescription: [
+      "Integrated CSS transitions and JavaScript event listeners for seamless user experience.",
     ],
-    href: "",
+    href: "https://ishikasoni056.github.io/ImageSlider/",
     logo: "",
-    image: "/MainPortfolio/assets/projects/wordpress-theme.jpg",
+    image: "/MainPortfolio/assets/projects/imageslider.png",
+  github: "https://github.com/IshikaSoni056/ImageSlider ",
     tags: [
       {
         id: 1,
-        name: "WordPress",
-        path: "/MainPortfolio/assets/logos/wordpress.svg",
-      },
-      {
-        id: 2,
-        name: "HTML5",
+        name: "HTML",
         path: "/MainPortfolio/assets/logos/html5.svg",
       },
       {
-        id: 3,
-        name: "CSS3",
+        id: 2,
+        name: "CSS",
         path: "/MainPortfolio/assets/logos/css3.svg",
       },
       {
-        id: 4,
-        name: "Vite.js",
-        path: "/MainPortfolio/assets/logos/vitejs.svg",
-      },
-    ],
-  },
-  {
-    id: 6,
-    title: "Online Learning Platform",
-    description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
-    subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
-    ],
-    href: "",
-    logo: "",
-    image: "/MainPortfolio/assets/projects/elearning.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/MainPortfolio/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: "Azure",
-        path: "/MainPortfolio/assets/logos/azure.svg",
-      },
-      {
         id: 3,
-        name: "Stripe",
-        path: "/MainPortfolio/assets/logos/stripe.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/MainPortfolio/assets/logos/tailwindcss.svg",
+        name: "Javascript",
+        path: "/MainPortfolio/assets/logos/javascript.svg",
       },
     ],
   },

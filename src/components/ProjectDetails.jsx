@@ -68,6 +68,7 @@ import { motion } from "framer-motion";
 
 const ProjectDetails = ({
   title,
+  Languages,
   description,
   subDescription,
   image,
@@ -88,9 +89,10 @@ const ProjectDetails = ({
         >
           <img src="/MainPortfolio/assets/close.svg" className="w-6 h-6" />
         </button>
-        <img src={image} alt={title} className="w-full rounded-t-2xl" />
+        <img src={image} alt={title} className="w-full  rounded-t-2xl" />
         <div className="p-5">
           <h5 className="mb-2 text-2xl font-bold text-white">{title}</h5>
+          <h6 className="text-pink-400">{Languages}</h6>
           <p className="mb-3 font-normal text-neutral-400">{description}</p>
           {subDescription.map((subDesc, index) => (
             <p key={index} className="mb-3 font-normal text-neutral-400">{subDesc}</p>
@@ -107,6 +109,7 @@ const ProjectDetails = ({
                 />
               ))}
             </div>
+            
             <a
               href={href}
               target="_blank"
