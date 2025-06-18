@@ -192,10 +192,9 @@ export const experiences = [
     date: "May 2025 - July 2025",
     contents: [
       "Built and deployed a responsive landing page using HTML, CSS, JavaScript, boosting user engagement by 25%.",
+      "Built dedicated 'Hire' and 'Candidates' pages for recruiters, enabling seamless job posting and efficient candidate search functionalities.",
       "Designed and developed a comprehensive Admin Master Panel to monitor and manage user profiles, with full backend integration",
       "Developed and updated the Assessment Section of the site, adding 300+ topic-wise questions and quizzes across multiple subtopics, storing all data in Firebase Firestore.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communicationPerformed end-to-end functionality testing of the website, identifying and resolving 10+ UI/UX bugs to ensure seamless operation across devices.",
-      "Additionally, implemented a dedicated Recruiter Hire Page, enabling recruiters to seamlessly post job listings and track applicant submissions in real time.",
     ],
   },
   {
