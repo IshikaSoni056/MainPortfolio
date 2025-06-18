@@ -1,6 +1,6 @@
 // components/CelestialLoader.jsx
 import React from "react";
-import "./PreLoader.css";
+import "./Preloader.css";
 
 const CelestialLoader = () => {
   return (
