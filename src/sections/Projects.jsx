@@ -77,7 +77,7 @@ const isInView = useInView(headingRef, { once: true, amount: 0.5 });
 
 
   return (
-    <section className="relative section-spacing">
+    <section className="relative section-spacing" id="projects" >
      <motion.h2
   ref={headingRef}
   initial={{ opacity: 0, y: 50 }}

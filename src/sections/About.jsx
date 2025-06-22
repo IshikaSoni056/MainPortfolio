@@ -113,7 +113,7 @@ const About = () => {
   };
 
   return (
-    <section
+    <section id="about"
       ref={ref}
       className="min-h-screen w-full  text-white flex items-center justify-center px-8 py-24 mt-16 bg-[#13171e] border-2 border-white/50 rounded-2xl shadow-lg"
     >
