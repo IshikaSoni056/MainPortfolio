@@ -93,7 +93,7 @@ const ParallaxBackground = () => {
 
         {/* Mountain Layer 1 */}
         <motion.div
-          className="absolute inset-0 z-40"
+          className="absolute inset-0 z-20"
           initial="hidden"
           animate="visible"
           variants={fadeZoomIn}

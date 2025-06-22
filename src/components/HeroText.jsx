@@ -76,7 +76,7 @@ const HeroText = () => {
         </div>
         <div className="">
         <a
-            href="/MainPortfolio/assets/Resume_Ishika_Soni.pdf" // Update to your actual file/link
+            href="https://drive.google.com/file/d/1y3eNXZGk7gK7fEmRnqqNlITTNEiWAyIW/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className=" px-6 py-3 backdrop-blur-md bg-white/10 text-white font-medium border border-purple-400/40 rounded-xl shadow-[0_0_10px_rgba(200,100,255,0.3)] hover:shadow-[0_0_20px_rgba(200,100,255,0.6)] transition-all duration-300 hover:scale-105"
